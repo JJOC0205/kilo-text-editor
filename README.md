@@ -3,8 +3,8 @@
 A version of ***Kilo***, a text editor for your terminal
 
 I followed the guide 
-[*Build Your Own Text Editor*](https://viewsourcecode.org/snaptoken/kilo/index.html) 
-Kilo was originally designed by Salvatore Sanfilippo, aka antirez.
+[*Build Your Own Text Editor*](https://viewsourcecode.org/snaptoken/kilo/index.html). 
+This book was written by Snaptoken, however Kilo was originally designed by Salvatore Sanfilippo, aka antirez.
 
 ## Overview
 
