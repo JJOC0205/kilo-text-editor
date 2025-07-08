@@ -1,4 +1,12 @@
 CC=gcc
-CFLAGS=-I.
-kilo: kilo.o
-	$(CC) kilo.c -o kilo -Wall -Wextra -pedantic -std=c99
+CFLAGS=-I./src -Wall -Wextra -pedantic -std=c99
+
+SRC=src/kilo.c
+OBJ=src/kilo.o
+
+kilo: $(OBJ)
+	$(CC) $(OBJ) -o kilo $(CFLAGS)
+src/%.o: src/%.c
+	$(CC) -c $< -o $@ $(CFLAGS)
+clean:
+	rm -f src/*.o kilo
